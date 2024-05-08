@@ -16,6 +16,16 @@
     padding-right: 1rem;
 }
 
+.button-green {
+    font-size: 200%;
+    background-color: green;
+}
+
+.button-red {
+    font-size: 200%;
+    background-color: red;
+}
+
 /* Score Area */
 .score-area{
   position: absolute;
