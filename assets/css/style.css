@@ -1,29 +1,32 @@
 /* Heading */
-.heading {
-    text-align: center;
-}
-
 .logo {
     width: 10%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 300%;
 }
 
 /* Game  Area */
 .game-area {
     text-align: center;
-    padding-top: 15rem;
-    font-size: 150%;
+    padding-top: 10rem;
+    font-size: 200%;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 .button-green {
-    font-size: 200%;
+    font-size: 150%;
     background-color: green;
+    color: white;
 }
 
 .button-red {
-    font-size: 200%;
+    font-size: 150%;
     background-color: red;
+    color: white;
 }
 
 /* Score Area */
