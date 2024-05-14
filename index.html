@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,12 @@
     <!-- Logo -->
     <link rel="icon" type="image/x-icon" href="assets/images/guess-logo.jpg">
 </head>
+
 <body>
     <!-- Heading -->
     <div>
-    <img class="logo" src="assets/images/guess-logo.jpg" alt="logo">
-    <h1 class="heading">Guess!</h1>
+        <img class="logo" src="assets/images/guess-logo.jpg" alt="logo">
+        <h1 class="heading">Guess!</h1>
     </div>
     <!-- Game Area -->
     <div class="game-area">
@@ -32,7 +34,16 @@
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
     </div>
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Quiz Ended!</h2>
+            <p>Your score: <span id="final-score"></span></p>
+        </div>
+    </div>
     <!-- Connection to Java Script -->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
