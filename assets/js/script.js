@@ -100,6 +100,7 @@ function checkAnswer(selectedAnswer) {
         loadQuestion();
     } else {
         // Quiz ends
+        endGame = true;
         showEndGameModal();
     }
 }
