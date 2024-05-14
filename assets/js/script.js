@@ -1,62 +1,53 @@
-// Questions
-let questions [
+// Questions and Answers
+const quizData = [
     {
-        question: "What is the capital of England?";
-        answers: [
-            {text: Paris; correct: false};
-            {text: London; correct: true};
-            {text: Bucharest; correct: false};
-            {text: Vienna; correct: false};
-        ]
-    };
+        question: "What is the capital of France?",
+        options: ["Paris", "London", "Rome", "Berlin"],
+        correctAnswer: "Paris"
+    },
     {
-        question: "What is the largest planet in our solar sistem?";
-        answers: [
-            {text: Earth; correct: false};
-            {text: Saturn; correct: false};
-            {text: Mars; correct: false};
-            {text: Jupiter; correct: true};
-        ]
-    };
+        question: "Which planet is known as the Red Planet?",
+        options: ["Earth", "Mars", "Venus", "Mercury"],
+        correctAnswer: "Mars"
+    },
     {
-        question: "2+2?";
-        answers: [
-            {text: 4; correct: true};
-            {text: 3; correct: false};
-            {text: 6; correct: false};
-            {text: 22; correct: false};
-        ]
-    };
+        question: "How many time zones are there in Russia?",
+        options: ["6", "9", "11", "12"],
+        correctAnswer: "11"
+    },
     {
-        question: "How many time zones are there in Russia?";
-        answers: [
-            {text: 23; correct: false};
-            {text: 11; correct: true};
-            {text: 12; correct: false};
-            {text: 33; correct: false};
-        ]
-    };
+        question: "What’s the national flower of Japan?",
+        options: ["Rose", "Cherry blossom", "Sunflower", "Lotus"],
+        correctAnswer: "Cherry blossom"
+    },
     {
-        question: "How many stripes are there on the US flag?";
-        answers: [
-            {text: 13; correct: true};
-            {text: 23; correct: false};
-            {text: 44; correct: false};
-            {text: 12; correct: false};
-        ]
-    };
+        question: "How many stripes are there on the US flag?",
+        options: ["10", "12", "13", "15"],
+        correctAnswer: "13"
+    },
     {
-        question: "How many days does it take for the Earth to orbit the Sun?";
-        answers: [
-            {text: 256; correct: false};
-            {text: 30; correct: false};
-            {text: 7; correct: false};
-            {text: 365; correct: true};
-            ]
-    };
+        question: "What’s the national animal of Australia?",
+        options: ["Koala", "Kangaroo", "Emu", "Platypus"],
+        correctAnswer: "Red Kangaroo"
+    },
     {
-        
-    }
-
-    
-]
+        question: "How many days does it take for the Earth to orbit the Sun?",
+        options: ["365", "366", "364", "360"],
+        correctAnswer: "365"
+    },
+    {
+        question: "Which of the following empires had no written language: Incan, Aztec, Egyptian, Roman?",
+        options: ["Incan", "Aztec", "Egyptian", "Roman"],
+        correctAnswer: "Incan"
+    },
+    {
+        question: "Until 1923, what was the Turkish city of Istanbul called?",
+        options: ["Byzantium", "Constantinople", "Smyrna", "Ephesus"],
+        correctAnswer: "Constantinople"
+    },
+    {
+        question: "What country has the most islands in the world?" ,
+        options: ["France", "Italy", "Spain", "Sweden"],
+        correctAnswer: "Sweden"
+    },
+];
