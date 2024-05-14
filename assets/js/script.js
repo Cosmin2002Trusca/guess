@@ -121,3 +121,13 @@ function showEndGameModal() {
 closeButton.addEventListener('click', () => {
     modal.style.display = 'none';
 });
+
+// Function to reset the quiz
+function resetQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    incorrect = 0;
+    endGame = false;
+    updateScoreDisplay();
+    loadQuestion();
+}
