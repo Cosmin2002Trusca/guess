@@ -60,6 +60,8 @@ const incorrectElement = document.getElementById('incorrect');
 const modal = document.getElementById('modal');
 const finalScore = document.getElementById('final-score');
 const closeButton = document.querySelector('.close');
+const startButton = document.getElementById('start-button');
+const gameArea = document.getElementById('game-area');
 
 // Initialize scores
 let score = 0;
@@ -137,3 +139,12 @@ closeButton.addEventListener('click', () => {
     modal.style.display = 'none';
     resetQuiz();
 });
+
+// Function to start the game
+function startGame() {
+    startButton.style.display = 'none';
+    gameArea.style.display = 'block';
+    resetQuiz();
+}
+
+startButton.addEventListener('click', startGame);
