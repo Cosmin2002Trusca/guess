@@ -57,3 +57,8 @@ const questionElement = document.querySelector('.question');
 const buttons = document.querySelectorAll('.buttons button');
 const scoreElement = document.getElementById('score');
 const incorrectElement = document.getElementById('incorrect');
+
+// Initialize scores
+let score = 0;
+let incorrect = 0;
+updateScoreDisplay();
