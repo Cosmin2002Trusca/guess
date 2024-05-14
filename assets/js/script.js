@@ -96,7 +96,7 @@ function checkAnswer(selectedAnswer) {
         loadQuestion();
     } else {
         // Quiz ends
-        alert(`Quiz ended! Your score: ${score}`);
+        showEndGameModal();
     }
 }
 
