@@ -62,3 +62,14 @@ const incorrectElement = document.getElementById('incorrect');
 let score = 0;
 let incorrect = 0;
 updateScoreDisplay();
+
+// Add event listeners to buttons
+buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+        const selectedAnswer = quizData[currentQuestionIndex].options[index];
+        checkAnswer(selectedAnswer);
+    });
+});
+
+let currentQuestionIndex = 0;
+loadQuestion();
