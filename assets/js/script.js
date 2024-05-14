@@ -99,3 +99,9 @@ function checkAnswer(selectedAnswer) {
         alert(`Quiz ended! Your score: ${score}`);
     }
 }
+
+// Function to update score display
+function updateScoreDisplay() {
+    scoreElement.textContent = score;
+    incorrectElement.textContent = incorrect;
+}
