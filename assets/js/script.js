@@ -113,14 +113,11 @@ function updateScoreDisplay() {
 
 // Function to show end game modal with final score
 function showEndGameModal() {
-    const modal = document.getElementById('modal');
-    const finalScore = document.getElementById('final-score');
     finalScore.textContent = score;
     modal.style.display = 'block';
-
-    // Close the modal when the close button is clicked
-    const closeButton = document.querySelector('.close');
-    closeButton.addEventListener('click', () => {
-        modal.style.display = 'none';
-    });
 }
+
+// Close the modal when the close button is clicked
+closeButton.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
