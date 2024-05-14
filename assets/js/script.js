@@ -73,3 +73,11 @@ buttons.forEach((button, index) => {
 
 let currentQuestionIndex = 0;
 loadQuestion();
+
+// Function to load a new question
+function loadQuestion() {
+    questionElement.textContent = quizData[currentQuestionIndex].question;
+    quizData[currentQuestionIndex].options.forEach((option, index) => {
+        buttons[index].textContent = option;
+    });
+}
