@@ -57,6 +57,9 @@ const questionElement = document.querySelector('.question');
 const buttons = document.querySelectorAll('.buttons button');
 const scoreElement = document.getElementById('score');
 const incorrectElement = document.getElementById('incorrect');
+const modal = document.getElementById('modal');
+const finalScore = document.getElementById('final-score');
+const closeButton = document.querySelector('.close');
 
 // Initialize scores
 let score = 0;
