@@ -64,6 +64,7 @@ const closeButton = document.querySelector('.close');
 // Initialize scores
 let score = 0;
 let incorrect = 0;
+let endGame = false;
 updateScoreDisplay();
 
 // Add event listeners to buttons
