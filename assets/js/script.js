@@ -81,3 +81,21 @@ function loadQuestion() {
         buttons[index].textContent = option;
     });
 }
+
+// Function to check the selected answer
+function checkAnswer(selectedAnswer) {
+    const correctAnswer = quizData[currentQuestionIndex].correctAnswer;
+    if (selectedAnswer === correctAnswer) {
+        score++;
+    } else {
+        incorrect++;
+    }
+    updateScoreDisplay();
+    currentQuestionIndex++;
+    if (currentQuestionIndex < quizData.length) {
+        loadQuestion();
+    } else {
+        // Quiz ends
+        alert(`Quiz ended! Your score: ${score}`);
+    }
+}
