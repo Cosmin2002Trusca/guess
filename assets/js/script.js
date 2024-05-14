@@ -51,3 +51,9 @@ const quizData = [
         correctAnswer: "Sweden"
     },
 ];
+
+// Get DOM elements
+const questionElement = document.querySelector('.question');
+const buttons = document.querySelectorAll('.buttons button');
+const scoreElement = document.getElementById('score');
+const incorrectElement = document.getElementById('incorrect');
