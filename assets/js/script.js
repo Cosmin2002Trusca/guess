@@ -148,4 +148,5 @@ function startGame() {
     resetQuiz();
 }
 
+
 startButton.addEventListener('click', startGame);

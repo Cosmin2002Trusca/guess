@@ -1,39 +1,54 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Guess!
 
-Welcome,
+Welcome to Guess!, your premier destination for an 
+exhilarating quiz experience! Dive into a diverse array of topics. Our engaging quizzes are meticulously crafted to entertain and challenge users of all skill levels, with multiple difficulty levels ensuring a satisfying experience for everyone. With our mobile-friendly platform, you can enjoy the thrill of trivia mastery anytime, anywhere. Join us now and unleash your inner quiz champion!
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Mockup](assets/images/mockup-all-devices.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
 
-## Codeanywhere Reminders
+Our quiz game boasts an array of captivating features designed to immerse players in a thrilling trivia experience. With an extensive library of questions spanning diverse topics such as geography, history, and pop culture, players can test their knowledge across a multitude of subjects. The intuitive interface offers seamless navigation, allowing players to easily progress through questions and track their scores in real-time. Engage in friendly competition with friends or challenge yourself. The visually appealing design, coupled with responsive layouts, ensures an enjoyable experience across all devices. Our quiz game promises endless hours of entertainment and enlightenment for players of all ages.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+- __The Guess! Logo and Heading__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - Featured at the top of the page, the Guess! logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Logo](assets/images/logo-guess!.png)
 
-`http_server`
+- __The Game Area__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - This section will allow the user to play the game. The user will be able to easily see the questions and buttons with answers. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Game](assets/images/game-area.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __The Score Area__
 
-To log into the Heroku toolbelt CLI:
+  - This section will allow the user to see the score. The user will be able to easily see real time score. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Game](assets/images/score-area.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Testing
 
----
+- HTML
+    - No errors were returned when passing through the official W3C validator
+- CSS
+    - No errors were found when passing through the official Jigsaw validator
+- JavaScript
+    - No errors were found when passing through the official Jshint validator
 
-Happy coding!
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://cosmin2002trusca.github.io/guess/
+
+## Credits
+
+- Our quiz game boasts an array of captivating features inspired by the innovative design of the 'Love Maths' project, particularly in the implementation of the score area.
