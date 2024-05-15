@@ -17,7 +17,7 @@
 .game-area {
     text-align: center;
     padding-top: 5rem;
-    font-size: 200%;
+    font-size: 150%;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -97,4 +97,10 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .game-area {
+        font-size: 200%;
+    }
 }

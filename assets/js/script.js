@@ -134,6 +134,7 @@ function resetQuiz() {
     loadQuestion();
 }
 
+
 // Close the modal and reset the quiz when the close button is clicked
 closeButton.addEventListener('click', () => {
     modal.style.display = 'none';
